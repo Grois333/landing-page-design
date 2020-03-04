@@ -428,7 +428,14 @@ footer .footer-container{
 }
 
 
+@media all and (max-width:1000px){
 
+    .section-container{
+        width: auto;
+        text-align: center;
+    }
+
+}
 
 
 @media all and (max-width:900px){
@@ -436,6 +443,35 @@ footer .footer-container{
     nav{
         margin-left: 150px;
     }
+}
+
+
+@media all and (max-width:870px){
+
+    .section-container{
+        flex-direction: column;
+        height: 470px;
+    }
+
+    .quote{
+
+        margin: auto;
+
+    }
+
+    .info{
+
+        margin: auto;
+        margin-top: 50px;
+
+    }
+
+    .buttons{
+        margin: 0 auto;
+        float: none;
+        justify-content: center;
+    }
+
 }
 
 
@@ -496,10 +532,6 @@ footer .footer-container{
         padding: 0 !important;
     }
 
-    header .container{
-
-        /* flex-direction: row; */
-    }
 
     header .menu-btn{
         display: block;
@@ -680,11 +712,47 @@ footer .footer-container{
 }
 
 
+@media all and (max-width:610px){
+
+    .info{
+        width: auto;
+        padding: 0 10px;
+    }
+}
+
+@media all and (max-width:460px){
+
+    .section-container{
+
+        margin-bottom: 150px;
+    }
+}
+
+
+@media all and (max-width:430px){
+
+    .section-container{
+
+        margin-bottom: 150px;
+    }
+}
+
+
 @media all and (max-width:410px){
 
     .text{
         width: auto;
+        padding: 0 20px;
     }
 
+
+}
+
+@media all and (max-width:380px){
+
+    .section-container{
+
+        margin-bottom: 200px;
+    }
 
 }
